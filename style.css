@@ -1,0 +1,67 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+.conta
+{
+    /* background-color: blue; */
+    height: 200px;
+    max-width: 500px;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.boxOperator
+{
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    min-width: 40px;
+    height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.resposta
+{
+    /* background-color: purple; */
+    height: 200px;
+    max-width: 500px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btn
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h3
+{
+    font-size: 1.4em;
+    text-align: center;
+}
+
+.aviso
+{
+    /* background-color: red; */
+    height: 50px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+}
